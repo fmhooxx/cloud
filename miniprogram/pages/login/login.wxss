@@ -1,0 +1,59 @@
+/* miniprogram/pages/login/login.wxss */
+page {
+  background-color: #fff;
+}
+
+.head {
+  color: #494949;
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align: center;
+  margin: 40rpx auto 100rpx;
+}
+
+.content {
+  padding: 0 75rpx;
+}
+
+.common {
+  padding: 35rpx 0;
+  border-bottom: 1rpx solid #DFDFDF;
+}
+
+.common>text {
+  flex: 1;
+  color: #5D5D5D;
+  font-size: 30rpx;
+}
+
+.common>input {
+  flex: 4;
+}
+
+.placeholder-common {
+  color: #C7C7C7;
+  font-size: 28rpx;
+}
+
+.btn {
+  margin: 40rpx 0;
+}
+
+.btn>button {
+  width: 598rpx !important;
+  height: 82rpx;
+  border-radius: 41rpx;
+  letter-spacing: 15rpx;
+  color: #fff;
+  background-color: #52c0b8;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 0 75rpx;
+}
+
+.footer>view {
+  color: #52C0B8;
+  font-size: 28rpx;
+}

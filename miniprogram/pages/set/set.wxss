@@ -1,0 +1,25 @@
+/* miniprogram/pages/set/set.wxss */
+.flex-between {
+  background-color: #fff;
+  padding: 30rpx;
+  margin-bottom: 10rpx;
+}
+
+
+.head>view {
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.head>image {
+  margin-right: 26rpx;
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 50%;
+}
+
+.account>view {
+  color: #9E9E9E;
+  font-size: 26rpx;
+  margin-right: 10rpx;
+}

@@ -1,0 +1,53 @@
+/**app.wxss**/
+page {
+  background: #f6f6f6;
+}
+
+view {
+  font-size: 30rpx;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 右箭头 */
+.right-arrow {
+  width: 20rpx;
+  height: 20rpx;
+  border-bottom: 1rpx solid #C2C2C2;
+  border-right: 1rpx solid #C2C2C2;
+  transform: rotate(-45deg);
+}
+
+.arrow {
+  width: 16rpx;
+  height: 16rpx;
+  border-bottom: 1rpx solid #C2C2C2;
+  border-right: 1rpx solid #C2C2C2;
+  transform: rotate(-45deg);
+}

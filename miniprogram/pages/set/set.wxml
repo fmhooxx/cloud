@@ -1,0 +1,23 @@
+<!-- miniprogram/pages/set/set.wxml -->
+<view class="flex-between" bindtap="head_imgChange">
+	<view class="head flex-center">
+		<image wx:if="{{user.head_img == '' ? true:false}}" src="{{head_img}}" />
+		<image wx:else src="{{user.head_img}}" />
+	</view>
+	<text class="right-arrow" />
+
+</view>
+<view class="flex-between">
+		<view>账号</view>
+		<view class="flex-center account">
+				<view>{{user.account}}</view>
+				<text class="arrow">
+</text>
+</view>
+</view>
+<view class="flex-between">
+	<view>修改密码</view>
+	<text class="right-arrow"/>
+
+</view>
+

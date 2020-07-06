@@ -1,0 +1,17 @@
+/* miniprogram/pages/me/me.wxss */
+.flex-between {
+  background-color: #fff;
+  padding: 30rpx;
+}
+
+.head>view {
+  font-size: 34rpx;
+  font-weight: 600;
+}
+
+.head>image {
+  margin-right: 26rpx;
+  width: 92rpx;
+  height: 92rpx;
+  border-radius: 50%;
+}

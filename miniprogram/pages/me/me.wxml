@@ -1,0 +1,12 @@
+<!-- miniprogram/pages/me/me.wxml -->
+<view class="flex-between" bindtap="goUrl" data-url="/pages/set/set">
+	<view class="head  flex-center">
+		<image wx:if="{{user.head_img == '' ? true:false}}" src="{{head_img}}" />
+		<image wx:else src="{{user.head_img}}" />
+		<view wx:if="{{user.account == '' ? true:false}}">注册/登录</view>
+		<view wx:else>{{user.account}}</view>
+	</view>
+	<text class="right-arrow" />
+
+</view>
+

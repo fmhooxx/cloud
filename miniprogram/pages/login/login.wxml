@@ -1,0 +1,35 @@
+<!-- miniprogram/pages/login/login.wxml -->
+<view>
+	<view class="head">密码登陆</view>
+	<view class="content">
+		<view class="flex common">
+			<text>账号</text>
+			<input
+			 type="text"
+			 placeholder="请输入用户名"
+			 placeholder-class="placeholder-common"
+			 value="{{account}}"
+			 bindinput="accountChange"
+			/>
+		</view>
+		<view class="flex common">
+			<text>密码</text>
+			<input
+			 type="text"
+			 placeholder="请输入密码"
+			 placeholder-class="placeholder-common"
+			 value="{{pwd}}"
+			 bindinput="pwdChange"
+			 password="true"
+			/>
+		</view>
+	</view>
+	<view class="btn">
+		<button bindtap="submit">登陆</button>
+	</view>
+	<view class="flex-between footer">
+		<view bindtap="goUrl" data-url="/pages/register/register">注册</view>
+		<view>忘记密码</view>
+	</view>
+</view>
+
