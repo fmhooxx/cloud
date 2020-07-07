@@ -1,0 +1,4 @@
+/* miniprogram/pages/changeAccount/changeAccount.wxss */
+page {
+  background-color: #fff;
+}

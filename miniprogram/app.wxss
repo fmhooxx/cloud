@@ -51,3 +51,14 @@ view {
   border-right: 1rpx solid #C2C2C2;
   transform: rotate(-45deg);
 }
+
+/* 按钮 */
+.btns {
+  width: 598rpx !important;
+  height: 82rpx;
+  border-radius: 41rpx;
+  letter-spacing: 15rpx;
+  color: #fff;
+  background-color: #52c0b8;
+  font-weight: 400;
+}

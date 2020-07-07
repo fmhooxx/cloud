@@ -1,0 +1,4 @@
+<!-- miniprogram/pages/changeAccount/changeAccount.wxml -->
+<input type="text" placeholder="请输入新的账号" />
+<button class="btns">保存</button>
+

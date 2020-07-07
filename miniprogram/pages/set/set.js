@@ -10,6 +10,11 @@ Page({
     // 用户信息
     user: '',
   },
+  goUrl(e) {
+    wx.navigateTo({
+      url: e.target.dataset.url
+    })
+  },
   // 用户点击更换头像
   head_imgChange() {
     let {

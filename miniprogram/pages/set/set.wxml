@@ -7,7 +7,7 @@
 	<text class="right-arrow" />
 
 </view>
-<view class="flex-between">
+<view class="flex-between" bindtap="goUrl" data-url="/pages/changeAccount/changeAccount">
 		<view>账号</view>
 		<view class="flex-center account">
 				<view>{{user.account}}</view>
@@ -17,7 +17,7 @@
 </view>
 <view class="flex-between">
 	<view>修改密码</view>
-	<text class="right-arrow"/>
+	<text class="right-arrow" />
 
 </view>
 

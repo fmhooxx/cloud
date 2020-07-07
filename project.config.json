@@ -61,12 +61,20 @@
 					"id": -1,
 					"name": "我的",
 					"pathName": "pages/me/me",
+					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
 					"name": "设置",
 					"pathName": "pages/set/set",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改账号",
+					"pathName": "pages/changeAccount/changeAccount",
 					"scene": null
 				}
 			]
