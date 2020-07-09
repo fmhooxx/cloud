@@ -1,5 +1,26 @@
 <!-- index.wxml -->
-<view class="container">
-	<image src="{{img}}" />
+<view class="swiper-box">
+  <swiper indicator-dots indicator-color="#000" indicator-active-color="#00ffff" autoplay circular>
+    <swiper-item wx:for="{{swiperList}}" wx:key="index">
+      <view class="image-wrapper">
+        <image src="{{item.url}}" />
+      </view>
+    </swiper-item>
+  </swiper>
 </view>
 
+<view class="guess">
+  <view class="guess-title flex-between">
+    <view>猜你喜欢</view>
+    <text class="right-arrow"></text>
+  </view>
+  <view class="guess-box">
+    <view class="guess-list">
+      <view class="guess-item" wx:for="{{guessList}}" wx:key="index">
+        <image src="{{item.url}}" />
+        <view>{{item.title}}</view>
+        <text>¥{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>

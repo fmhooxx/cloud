@@ -75,6 +75,13 @@
 					"id": -1,
 					"name": "修改账号",
 					"pathName": "pages/changeAccount/changeAccount",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
 					"scene": null
 				}
 			]
