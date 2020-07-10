@@ -15,7 +15,7 @@
 </text>
 </view>
 </view>
-<view class="flex-between">
+<view class="flex-between" bindtap="goUrl" data-url="/pages/changePwd/changePwd">
 	<view>修改密码</view>
 	<text class="right-arrow" />
 

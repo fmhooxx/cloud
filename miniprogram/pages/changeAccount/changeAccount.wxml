@@ -1,4 +1,18 @@
 <!-- miniprogram/pages/changeAccount/changeAccount.wxml -->
-<input type="text" placeholder="请输入新的账号" />
-<button class="btns">保存</button>
+<view>
+	<van-search
+	 use-left-icon-slot="true"
+	 value="{{ account }}"
+	 shape="round"
+	 background="#52c0b8"
+	 placeholder="请输入新的账号名"
+	 bind:clear="clearAccount"
+	 bind:change="changeAccount"
+	/>
+	<text />
+
+</view>
+<view class="footer">
+  <button class="btns" bindtap="submit">保存</button>
+</view>
 

@@ -2,3 +2,10 @@
 page {
   background-color: #fff;
 }
+
+.footer {
+  position: fixed;
+  bottom: 40rpx;
+  left: 50%;
+  transform: translate(-50%);
+}
