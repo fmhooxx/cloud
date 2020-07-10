@@ -21,7 +21,9 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": true
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wx4650e563350d1d20",
 	"projectname": "demo",
@@ -51,7 +53,8 @@
 		},
 		"miniprogram": {
 			"current": 0,
-			"list": [{
+			"list": [
+				{
 					"id": -1,
 					"name": "db guide",
 					"pathName": "pages/databaseGuide/databaseGuide",
@@ -96,6 +99,13 @@
 					"id": -1,
 					"name": "修改密码",
 					"pathName": "pages/changePwd/changePwd",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
 					"scene": null
 				}
 			]
