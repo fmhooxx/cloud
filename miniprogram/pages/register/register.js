@@ -49,7 +49,8 @@ Page({
           data: {
             account: account,
             pwd: pwd,
-            head_img: ''
+            head_img: '',
+            guess: []
           }
         }).then(res => {
           if (res.errMsg == 'collection.add:ok') {

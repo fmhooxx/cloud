@@ -17,17 +17,18 @@
 <view class="guess">
 	<view class="guess-title flex-between">
 		<view>猜你喜欢</view>
-		<text class="right-arrow"/>
+		<text class="right-arrow" />
 
-  </view>
-	<view class="guess-box">
-		<view class="guess-list">
-			<view class="guess-item" wx:for="{{guessList}}" wx:key="index">
-				<image src="{{item.url}}" />
-				<view>{{item.title}}</view>
-				<text>¥{{item.price}}</text>
-			</view>
 		</view>
+		<view class="guess-box">
+				<view class="guess-list">
+						<view class="guess-item" wx:for="{{guessList}}" wx:key="index" bind:tap="goDetails" data-url="/pages/details/details" data-id="{{item._id}}">
+								<image src="{{item.url}}" />
+								<view>{{item.title}}</view>
+								<text>¥{{item.price}}
+</text>
 	</view>
+</view>
+</view>
 </view>
 

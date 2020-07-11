@@ -1,0 +1,45 @@
+<!-- miniprogram/pages/details/details.wxml -->
+<view>
+	<swiper
+	 class="swiper-box"
+	 indicator-dots
+	 indicator-color="#000"
+	 indicator-active-color="#00ffff"
+	 autoplay
+	 circular
+	>
+		<swiper-item wx:for="{{details.urlList}}" wx:key="index">
+			<image src="{{item}}" />
+		</swiper-item>
+	</swiper>
+</view>
+<view class="details">
+	<view class="details-title">{{details.title}}</view>
+	<view class="details-price">
+		¥
+		<text>{{details.price}}</text>
+	</view>
+	<view class="details-box flex-between">
+		<view>销量:{{details.salesVolume}}</view>
+		<view>库存:{{details.stock}}</view>
+		<view>浏览量{{details.views}}</view>
+	</view>
+</view>
+<view class="service flex">
+	<view>服务</view>
+	<text>{{details.service}}</text>
+</view>
+<view class="footer">
+	<view class="footer-box flex-center">
+		<view class="footer-common">首页</view>
+		<view class="footer-common">购物车</view>
+		<view class="footer-common {{flag ==  true ? 'collection':''}}" bind:tap="collection">收藏</view>
+		<view class="flex-center footer-content">
+			<view>立刻购买</view>
+			<text />
+
+      <view>加入购物车</view>
+    </view>
+  </view>
+</view>
+

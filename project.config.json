@@ -106,6 +106,14 @@
 					"id": -1,
 					"name": "首页",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "详情展示",
+					"pathName": "pages/details/details",
+					"query": "id=5d0327505f070d6b00016eb34108a901",
 					"scene": null
 				}
 			]

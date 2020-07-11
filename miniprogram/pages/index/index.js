@@ -12,7 +12,15 @@ Page({
     // 当前页码
     pageIndex: 1,
     // 每页显示的条数
-    pageSize: 2
+    pageSize: 4
+  },
+  // 去详情页面
+  goDetails(e) {
+    let url = e.currentTarget.dataset.url
+    let id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: url + '?id=' + id
+    })
   },
   // 获取轮播图数据
   getSwiper() {
